@@ -587,6 +587,42 @@
             <span class="skill-tag">SDLC Basics</span>
           </div>
         </div>
+        <!-- Skill 5: Python & ML -->
+        <div class="glass-panel skill-card tilt-card">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <span class="skill-badge-tag" style="color: #f472b6; background: rgba(244,114,182,0.1);">Machine Learning</span>
+          </div>
+
+          <div>
+            <h3 class="skill-name">Python & ML</h3>
+            <p class="skill-desc">Data preprocessing, Random Forest classification, model evaluation metrics, and joblib model serialization with scikit-learn.</p>
+          </div>
+
+          <div class="skill-progress-wrap">
+            <div class="progress-header">
+              <span>Proficiency</span>
+              <span>Applied ML</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" style="width: 78%; background: linear-gradient(90deg, #f472b6, #c084fc);"></div>
+            </div>
+          </div>
+
+          <div class="skill-tags">
+            <span class="skill-tag">scikit-learn</span>
+            <span class="skill-tag">Random Forest</span>
+            <span class="skill-tag">pandas / numpy</span>
+            <span class="skill-tag">Flask API</span>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -604,11 +640,11 @@
           </svg>
           Featured Work
         </span>
-        <h2 class="section-title">Key Academic <span class="text-gradient">Project</span></h2>
-        <p class="section-subtitle">Real-world software implementation demonstrating full workflow design and database
-          management.</p>
+        <h2 class="section-title">Key Academic <span class="text-gradient">Projects</span></h2>
+        <p class="section-subtitle">Real-world software implementations demonstrating full workflow design, database management, and machine learning engineering.</p>
       </div>
 
+      <!-- ── Project 1: Cake Castle ── -->
       <div class="project-showcase">
         <div class="project-grid">
           <!-- Left: Project Narrative & Details -->
@@ -739,6 +775,173 @@
                 </div>
                 <div class="db-query-snippet" id="liveQueryText">
                   SELECT cake_id, name, price FROM Cake_Castle_Inventory WHERE status = 'AVAILABLE';
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Project 2: Airline Customer Satisfaction Predictor ── -->
+      <div class="project-showcase" style="margin-top: 60px;">
+        <div class="project-grid">
+          <!-- Left: ML Project Details -->
+          <div class="project-details">
+            <div class="project-category-tag" style="color: #c084fc; background: rgba(157,78,221,0.12); border-color: rgba(157,78,221,0.35);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+              <span>Machine Learning &amp; Web Application</span>
+            </div>
+
+            <h3 class="project-title">✈️ Airline Customer Satisfaction Predictor</h3>
+
+            <p class="project-description">
+              An end-to-end <strong>Machine Learning</strong> web application that predicts airline passenger satisfaction
+              using a <strong>Random Forest Classifier</strong> trained on 129,880 real-world records. Features a
+              Flask-powered REST backend and an interactive UI with real-time confidence scores.
+            </p>
+
+            <!-- ML Metric Cards -->
+            <div class="ml-metrics-row" id="mlMetricsRow">
+              <div class="ml-metric-card">
+                <div class="ml-metric-value" style="color: #00f5d4;">95.43%</div>
+                <div class="ml-metric-label">Accuracy</div>
+              </div>
+              <div class="ml-metric-card">
+                <div class="ml-metric-value" style="color: #c084fc;">95.48%</div>
+                <div class="ml-metric-label">Precision</div>
+              </div>
+              <div class="ml-metric-card">
+                <div class="ml-metric-value" style="color: #60a5fa;">95.43%</div>
+                <div class="ml-metric-label">Recall</div>
+              </div>
+              <div class="ml-metric-card">
+                <div class="ml-metric-value" style="color: #f472b6;">95.44%</div>
+                <div class="ml-metric-label">F1-Score</div>
+              </div>
+            </div>
+
+            <div class="project-features-list">
+              <div class="project-feature-item">
+                <svg class="feature-check" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Random Forest Classifier</strong>: 200 estimators, max depth 20, balanced class weights, trained on 21 features across 129,880 records.</span>
+              </div>
+              <div class="project-feature-item">
+                <svg class="feature-check" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Flask REST API</strong>: Serves real-time predictions with confidence scores and probability bars via a clean web UI.</span>
+              </div>
+              <div class="project-feature-item">
+                <svg class="feature-check" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span><strong>Smart Preprocessing</strong>: Label encoding, median imputation, stratified 80/20 split with confusion matrix &amp; feature importance charts.</span>
+              </div>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-chip" style="color: #c084fc; border-color: rgba(157,78,221,0.4); background: rgba(157,78,221,0.1);">Python</span>
+              <span class="tech-chip" style="color: #c084fc; border-color: rgba(157,78,221,0.4); background: rgba(157,78,221,0.1);">scikit-learn</span>
+              <span class="tech-chip" style="color: #c084fc; border-color: rgba(157,78,221,0.4); background: rgba(157,78,221,0.1);">Flask</span>
+              <span class="tech-chip" style="color: #c084fc; border-color: rgba(157,78,221,0.4); background: rgba(157,78,221,0.1);">Random Forest</span>
+              <span class="tech-chip" style="color: #c084fc; border-color: rgba(157,78,221,0.4); background: rgba(157,78,221,0.1);">Pandas</span>
+              <span class="tech-chip" style="color: #c084fc; border-color: rgba(157,78,221,0.4); background: rgba(157,78,221,0.1);">Matplotlib</span>
+            </div>
+
+            <div class="project-action-btns">
+              <a href="https://github.com/srikasarathan-cyber/srika-1" target="_blank" rel="noopener noreferrer" class="btn-primary" id="airlineGithubBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>View on GitHub</span>
+              </a>
+              <button class="btn-glass" id="openAirlineModalBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <span>View ML Details</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right: ML Mockup Window -->
+          <div class="project-mockup-window" style="border-color: rgba(157,78,221,0.35);">
+            <div class="window-header" style="border-color: rgba(157,78,221,0.3);">
+              <div class="window-controls">
+                <span class="win-dot red"></span>
+                <span class="win-dot yellow"></span>
+                <span class="win-dot green"></span>
+              </div>
+              <div class="window-url-bar">http://127.0.0.1:5000 — Airline Predictor</div>
+              <div class="window-status" style="color: #c084fc;">ML MODEL LIVE</div>
+            </div>
+
+            <div class="mockup-screen" style="background: linear-gradient(135deg, rgba(14,10,35,0.95) 0%, rgba(20,14,50,0.95) 100%);">
+              <!-- Simulated prediction UI -->
+              <div class="cake-store-hero" style="background: linear-gradient(135deg, rgba(157,78,221,0.2) 0%, rgba(88,28,135,0.15) 100%); border-color: rgba(157,78,221,0.3);">
+                <div class="store-branding">
+                  <h4 style="color: #c084fc;">✈️ Satisfaction Predictor</h4>
+                  <p>Random Forest · 129,880 Records</p>
+                </div>
+                <div class="order-badge-pill" style="background: rgba(157,78,221,0.2); border-color: rgba(157,78,221,0.4); color: #c084fc;">Model Accuracy: 95.43%</div>
+              </div>
+
+              <!-- Feature input simulation -->
+              <div style="padding: 10px; display: flex; flex-direction: column; gap: 8px;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+                  <div style="background: rgba(157,78,221,0.08); border: 1px solid rgba(157,78,221,0.25); border-radius: 6px; padding: 8px;">
+                    <div style="font-size: 0.62rem; color: #94a3b8; font-family: var(--font-mono); margin-bottom: 3px;">CUSTOMER TYPE</div>
+                    <div style="font-size: 0.8rem; color: #c084fc; font-weight: 600;">Loyal Customer</div>
+                  </div>
+                  <div style="background: rgba(157,78,221,0.08); border: 1px solid rgba(157,78,221,0.25); border-radius: 6px; padding: 8px;">
+                    <div style="font-size: 0.62rem; color: #94a3b8; font-family: var(--font-mono); margin-bottom: 3px;">TRAVEL CLASS</div>
+                    <div style="font-size: 0.8rem; color: #c084fc; font-weight: 600;">Business</div>
+                  </div>
+                  <div style="background: rgba(157,78,221,0.08); border: 1px solid rgba(157,78,221,0.25); border-radius: 6px; padding: 8px;">
+                    <div style="font-size: 0.62rem; color: #94a3b8; font-family: var(--font-mono); margin-bottom: 3px;">FLIGHT DISTANCE</div>
+                    <div style="font-size: 0.8rem; color: #c084fc; font-weight: 600;">2,450 km</div>
+                  </div>
+                  <div style="background: rgba(157,78,221,0.08); border: 1px solid rgba(157,78,221,0.25); border-radius: 6px; padding: 8px;">
+                    <div style="font-size: 0.62rem; color: #94a3b8; font-family: var(--font-mono); margin-bottom: 3px;">SEAT COMFORT</div>
+                    <div style="font-size: 0.8rem; color: #c084fc; font-weight: 600;">★★★★★ (5/5)</div>
+                  </div>
+                </div>
+
+                <!-- Animated Prediction Result -->
+                <div style="background: rgba(0,245,212,0.08); border: 1px solid rgba(0,245,212,0.4); border-radius: 8px; padding: 10px; text-align: center; margin-top: 4px;">
+                  <div style="font-size: 0.65rem; color: #94a3b8; font-family: var(--font-mono); letter-spacing: 0.1em; margin-bottom: 4px;">PREDICTION OUTPUT</div>
+                  <div style="font-size: 1.1rem; font-weight: 800; color: #00f5d4; font-family: var(--font-heading);">✅ SATISFIED</div>
+                  <div style="display: flex; gap: 4px; align-items: center; justify-content: center; margin-top: 6px;">
+                    <div style="font-size: 0.68rem; color: #94a3b8;">Confidence:</div>
+                    <div style="flex: 1; height: 6px; background: rgba(255,255,255,0.1); border-radius: 3px; max-width: 80px;">
+                      <div style="width: 89%; height: 100%; background: linear-gradient(90deg, #00f5d4, #c084fc); border-radius: 3px;"></div>
+                    </div>
+                    <div style="font-size: 0.72rem; color: #00f5d4; font-weight: 700; font-family: var(--font-mono);">89.2%</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ML Query Monitor -->
+              <div class="dbms-live-preview" style="border-color: rgba(157,78,221,0.3);">
+                <div class="dbms-header">
+                  <span class="dbms-title" style="color: #c084fc;">RANDOM FOREST · INFERENCE LOG</span>
+                  <span style="color: #c084fc; font-size: 0.7rem; font-family: var(--font-mono);">LIVE</span>
+                </div>
+                <div class="db-query-snippet" style="color: #c084fc;">
+                  model.predict([[1,2,45,2450,5,5,4,5,0,5]]) → [1] satisfied
                 </div>
               </div>
             </div>
@@ -904,8 +1107,14 @@
           <div class="resume-block-title">Projects</div>
           <div class="resume-block-content">
             <p><strong>Cake Castle Project</strong></p>
-            <p>A software & database application for bakery ordering, inventory management, and customer tracking with
-              relational schema and responsive UI.</p>
+            <p>A software &amp; database application for bakery ordering, inventory management, and customer tracking with
+              relational schema and responsive UI. Tech: HTML5, Java, DBMS, SQL.</p>
+            <br>
+            <p><strong>✈️ Airline Customer Satisfaction Predictor</strong> — <a href="https://github.com/srikasarathan-cyber/srika-1" target="_blank" rel="noopener noreferrer" style="color: var(--cyan-primary);">GitHub Repository</a></p>
+            <p>End-to-end Machine Learning web application predicting airline passenger satisfaction using a Random Forest
+              Classifier (200 estimators) trained on 129,880 records. Achieved 95.43% accuracy. Deployed as a Flask web
+              app with real-time confidence scores and feature importance visualizations.</p>
+            <p>Tech: Python, scikit-learn, Flask, pandas, numpy, matplotlib, seaborn, joblib.</p>
           </div>
         </div>
 
@@ -1283,6 +1492,102 @@ VALUES (1014, 'Royal Chocolate Truffle', 1.0, 650.00, 'CONFIRMED', NOW());
             order_id INT PRIMARY KEY, customer_id INT REFERENCES Customers(customer_id), cake_id INT REFERENCES Cake_Inventory(cake_id), weight_kg DECIMAL(4,2), total_amount DECIMAL(10,2), order_date TIMESTAMP
           </code>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       AIRLINE ML DETAILS MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="airlineModal" role="dialog" aria-modal="true" aria-labelledby="airlineModalTitle">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="closeAirlineModalBtn" aria-label="Close modal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div style="margin-bottom: 24px;">
+        <span class="section-tag" style="color: #c084fc; border-color: rgba(157,78,221,0.4); background: rgba(157,78,221,0.08);">Machine Learning Architecture</span>
+        <h3 id="airlineModalTitle"
+          style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: #fff; margin-top: 8px;">
+          ✈️ Airline Customer Satisfaction Predictor
+        </h3>
+        <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 6px;">
+          Full project details, dataset overview, model architecture, and performance metrics.
+        </p>
+      </div>
+
+      <!-- Performance Metric Cards -->
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px;">
+        <div style="background: rgba(0,245,212,0.08); border: 1px solid rgba(0,245,212,0.35); border-radius: var(--radius-md); padding: 16px; text-align: center;">
+          <div style="font-family: var(--font-mono); font-size: 1.4rem; font-weight: 800; color: #00f5d4;">95.43%</div>
+          <div style="font-size: 0.72rem; color: var(--text-secondary); margin-top: 4px; letter-spacing: 0.05em;">ACCURACY</div>
+        </div>
+        <div style="background: rgba(157,78,221,0.08); border: 1px solid rgba(157,78,221,0.35); border-radius: var(--radius-md); padding: 16px; text-align: center;">
+          <div style="font-family: var(--font-mono); font-size: 1.4rem; font-weight: 800; color: #c084fc;">95.48%</div>
+          <div style="font-size: 0.72rem; color: var(--text-secondary); margin-top: 4px; letter-spacing: 0.05em;">PRECISION</div>
+        </div>
+        <div style="background: rgba(58,134,255,0.08); border: 1px solid rgba(58,134,255,0.35); border-radius: var(--radius-md); padding: 16px; text-align: center;">
+          <div style="font-family: var(--font-mono); font-size: 1.4rem; font-weight: 800; color: #60a5fa;">95.43%</div>
+          <div style="font-size: 0.72rem; color: var(--text-secondary); margin-top: 4px; letter-spacing: 0.05em;">RECALL</div>
+        </div>
+        <div style="background: rgba(244,114,182,0.08); border: 1px solid rgba(244,114,182,0.35); border-radius: var(--radius-md); padding: 16px; text-align: center;">
+          <div style="font-family: var(--font-mono); font-size: 1.4rem; font-weight: 800; color: #f472b6;">95.44%</div>
+          <div style="font-size: 0.72rem; color: var(--text-secondary); margin-top: 4px; letter-spacing: 0.05em;">F1-SCORE</div>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <!-- Dataset Info -->
+        <div style="background: rgba(14,20,42,0.85); border: 1px solid rgba(157,78,221,0.2); border-radius: var(--radius-md); padding: 18px;">
+          <h4 style="color: #c084fc; font-family: var(--font-mono); font-size: 1rem; margin-bottom: 8px;">📊 DATASET: Airline_customer_satisfaction.csv</h4>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">129,880 rows • 21 input features • Binary target (satisfied / dissatisfied) • 393 missing values imputed via median</p>
+          <code style="font-family: var(--font-mono); font-size: 0.78rem; color: #94a3b8; display: block; background: #070a16; padding: 10px; border-radius: 6px;">
+            Categorical: Customer Type, Type of Travel, Class<br>
+            Numerical: Age, Flight Distance, Service Ratings (0–5), Departure/Arrival Delay
+          </code>
+        </div>
+
+        <!-- Model Config -->
+        <div style="background: rgba(14,20,42,0.85); border: 1px solid rgba(0,245,212,0.2); border-radius: var(--radius-md); padding: 18px;">
+          <h4 style="color: #00f5d4; font-family: var(--font-mono); font-size: 1rem; margin-bottom: 8px;">🤖 MODEL: Random Forest Classifier</h4>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">n_estimators=200 · max_depth=20 · class_weight='balanced' · 80/20 stratified split</p>
+          <code style="font-family: var(--font-mono); font-size: 0.78rem; color: #94a3b8; display: block; background: #070a16; padding: 10px; border-radius: 6px;">
+            RandomForestClassifier(n_estimators=200, max_depth=20, class_weight='balanced', random_state=42)
+          </code>
+        </div>
+
+        <!-- Tech Stack -->
+        <div style="background: rgba(14,20,42,0.85); border: 1px solid rgba(58,134,255,0.2); border-radius: var(--radius-md); padding: 18px;">
+          <h4 style="color: #60a5fa; font-family: var(--font-mono); font-size: 1rem; margin-bottom: 10px;">⚙️ TECH STACK & PROJECT STRUCTURE</h4>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px;">
+            <span style="background: rgba(157,78,221,0.15); border: 1px solid rgba(157,78,221,0.35); color: #c084fc; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-family: var(--font-mono);">Python</span>
+            <span style="background: rgba(157,78,221,0.15); border: 1px solid rgba(157,78,221,0.35); color: #c084fc; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-family: var(--font-mono);">scikit-learn</span>
+            <span style="background: rgba(157,78,221,0.15); border: 1px solid rgba(157,78,221,0.35); color: #c084fc; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-family: var(--font-mono);">Flask</span>
+            <span style="background: rgba(157,78,221,0.15); border: 1px solid rgba(157,78,221,0.35); color: #c084fc; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-family: var(--font-mono);">pandas</span>
+            <span style="background: rgba(157,78,221,0.15); border: 1px solid rgba(157,78,221,0.35); color: #c084fc; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-family: var(--font-mono);">numpy</span>
+            <span style="background: rgba(157,78,221,0.15); border: 1px solid rgba(157,78,221,0.35); color: #c084fc; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-family: var(--font-mono);">matplotlib</span>
+            <span style="background: rgba(157,78,221,0.15); border: 1px solid rgba(157,78,221,0.35); color: #c084fc; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-family: var(--font-mono);">seaborn</span>
+            <span style="background: rgba(157,78,221,0.15); border: 1px solid rgba(157,78,221,0.35); color: #c084fc; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-family: var(--font-mono);">joblib</span>
+          </div>
+          <code style="font-family: var(--font-mono); font-size: 0.78rem; color: #94a3b8; display: block; background: #070a16; padding: 10px; border-radius: 6px;">
+            airline/ ├── app.py · train_model.py · requirements.txt<br>
+            ├── dataset/ └── Airline_customer_satisfaction.csv<br>
+            ├── model/ └── random_forest.pkl · encoders.pkl · metrics.json<br>
+            └── templates/ + static/ (UI, charts, CSS, JS)
+          </code>
+        </div>
+
+        <!-- GitHub Link -->
+        <a href="https://github.com/srikasarathan-cyber/srika-1" target="_blank" rel="noopener noreferrer" class="btn-primary" style="justify-content: center; background: linear-gradient(135deg, #7c3aed, #9d4edd); box-shadow: 0 0 20px rgba(157,78,221,0.3);">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+          <span>View Full Project on GitHub: srikasarathan-cyber/srika-1</span>
+        </a>
       </div>
     </div>
   </div>

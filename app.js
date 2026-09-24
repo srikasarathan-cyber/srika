@@ -417,6 +417,24 @@
       });
     }
 
+    // Airline ML Details Modal
+    const airlineModal = document.getElementById('airlineModal');
+    const openAirlineBtn = document.getElementById('openAirlineModalBtn');
+    const closeAirlineBtn = document.getElementById('closeAirlineModalBtn');
+
+    if (openAirlineBtn && airlineModal) {
+      openAirlineBtn.addEventListener('click', () => {
+        playCyberSound('click');
+        airlineModal.classList.add('open');
+      });
+    }
+
+    if (closeAirlineBtn && airlineModal) {
+      closeAirlineBtn.addEventListener('click', () => {
+        airlineModal.classList.remove('open');
+      });
+    }
+
     // Hero "Inspect Official Resume" Button scrolls directly & highlights
     const openResumeBtn = document.getElementById('openResumeModalBtn');
     if (openResumeBtn) {
@@ -436,7 +454,7 @@
     }
 
     // Close on overlay backdrop click
-    [projectModal, archModal].forEach((modal) => {
+    [projectModal, archModal, airlineModal].forEach((modal) => {
       if (!modal) return;
       modal.addEventListener('click', (e) => {
         if (e.target === modal) {
@@ -450,6 +468,7 @@
       if (e.key === 'Escape') {
         if (projectModal) projectModal.classList.remove('open');
         if (archModal) archModal.classList.remove('open');
+        if (airlineModal) airlineModal.classList.remove('open');
       }
     });
 
@@ -483,10 +502,12 @@ TECHNICAL SKILLS
 • HTML (Semantic Web & Interface Design)
 • Java (Core OOP Principles & Logic)
 • DBMS (Database Management Systems & SQL Queries)
+• Python & Machine Learning (scikit-learn, Flask, pandas)
 • Computer Science Fundamentals
 
-PROJECT
-• Cake Castle Project: Full bakery order & inventory management software with relational DBMS schema.
+PROJECTS
+• Cake Castle Project: Full bakery order & inventory management software with relational DBMS schema. Tech: HTML5, Java, DBMS, SQL.
+• Airline Customer Satisfaction Predictor (GitHub: github.com/srikasarathan-cyber/srika-1): End-to-end ML web app predicting airline passenger satisfaction using Random Forest (200 estimators, 95.43% accuracy) on 129,880 records. Deployed as a Flask web app. Tech: Python, scikit-learn, Flask, pandas, numpy, matplotlib, seaborn, joblib.
 
 PERSONAL DETAILS
 • Date of Birth: 06/07/2007
